@@ -4,7 +4,7 @@ import Screen from 'components/Screen';
 
 export default function Balances() {
   return (
-    <Screen title="Support page">
+    <Screen title="Balances page">
       <PrimaryButton />
     </Screen>
   );
