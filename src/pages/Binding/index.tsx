@@ -1,20 +1,11 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
 import PrimaryButton from 'components/PrimaryButton';
+import Screen from 'components/Screen';
 
 export default function Binding() {
   return (
-    <View style={styles.container}>
-      <Text>Binding page</Text>
+    <Screen title="Binding page">
       <PrimaryButton />
-    </View>
+    </Screen>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
