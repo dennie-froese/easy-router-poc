@@ -1,7 +1,7 @@
 import React from 'react';
 import {View} from 'react-native';
-import Logon from 'pages/Logon';
+import LogonRouter from './navigation/LogonRouter';
 
 export default function App() {
-  return <Logon />;
+  return <LogonRouter />;
 }
