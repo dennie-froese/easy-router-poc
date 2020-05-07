@@ -2,10 +2,13 @@ import React from 'react';
 import PrimaryButton from 'components/PrimaryButton';
 import Screen from 'components/Screen';
 
-export default function Biometry() {
+interface Props {
+  onPress?: () => void;
+}
+export default function Biometry({onPress}: Props) {
   return (
     <Screen title="Biometry page">
-      <PrimaryButton />
+      <PrimaryButton onPress={onPress} />
     </Screen>
   );
 }
