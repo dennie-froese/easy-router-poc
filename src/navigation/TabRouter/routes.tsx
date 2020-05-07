@@ -3,7 +3,7 @@ import AuthorisationRouter from 'navigation/AuthorisationRouter';
 import Support from 'pages/Support';
 
 export const routes = {
-  Balance: AccountsRouter,
+  Balances: AccountsRouter,
   Authorisations: AuthorisationRouter,
   Support,
 };
